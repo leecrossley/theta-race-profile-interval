@@ -2,6 +2,8 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24411639.svg)](https://doi.org/10.5281/zenodo.24411639)
 
+This result is now maintained in [theta-host-split-inert-race](https://github.com/leecrossley/theta-host-split-inert-race/tree/main/results/theta-race-profile-interval). This repository is archived and keeps its releases and DOI.
+
 Assume the generalised Riemann hypothesis (GRH) for the primitive Dirichlet $L$-functions in the 547/727 race and its base field, including the Riemann zeta function. **The waiting factor $`C=2\exp(2.213003902943)=18.2862805781609\ldots`$ fails.** On the 547/727 field with $`b=r=2`$, there are arbitrarily large starting heights $`H`$ where no doubling that finishes by $`CH`$ loses more than $`1.9735\log 2`$. At other arbitrarily large heights the same deadline misses the gain. The earlier obstruction was $`2\exp(11/5)=18.05002699\ldots`$. [Theorem and proof](PROOF.md) [Earlier interval](https://github.com/leecrossley/theta-race-factor-18/blob/31ea5d495ca29f7f17869d1a3f321000266e4867/PROOF.md)
 
 The certificate covers the closed log interval $`[1.008796429610,3.221800332553]`$. The limiting score stays above the loss threshold at **every** point. A check one trillionth beyond each end falls below the threshold. This determines the length of the connected interval containing the certificate to within $`2\times10^{-12}`$. A later calculation gives an interval of length $132/25$ elsewhere in the profile. The optimal factor remains open. [Longer interval](https://github.com/leecrossley/theta-race-distant-interval/blob/527fffe7b7808457b47a292144fea96b556158a8/README.md) [Numerical enclosures](evidence/check.txt)
